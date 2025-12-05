@@ -38,8 +38,7 @@ model = init_chat_model(
     model="Qwen/Qwen3-Coder-480B-A35B-Instruct",
     model_provider="openai",
     base_url="https://api-inference.modelscope.cn/v1/",
-    api_key="ms-f75dfa86-0688-4aba-a0d4-cbc77d29034f"
-    #api_key="sk-9ddefab884e34199bc675e8560cbb794"
+
 )
 
 # We use a dataclass here, but Pydantic models are also supported.
